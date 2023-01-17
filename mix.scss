@@ -1,0 +1,17 @@
+@mixin soc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    gap: 10px;
+}
+
+@mixin bt {
+    background: $bl;
+    color: $wh;
+    border-radius: 12px;
+    font-size: 14px;
+    width: 120px;
+    height: 40px;
+    margin-top: 3%;
+}
