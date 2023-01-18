@@ -792,9 +792,229 @@ footer {
 @media only screen and (max-width: 375px) {
   .container {
     max-width: 375px;
+    margin: auto;
+  }
+
+  .header {
+    width: 100%;
     display: flex;
     margin: auto;
+    flex-wrap: wrap;
     flex-direction: column;
-    overflow-x: none;
+    text-align: center;
+  }
+
+  .hd {
+    width: 100%;
+    margin: auto;
+    margin-right: 60%;
+    display: flex;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .soc-links {
+    display: none;
+  }
+
+  .blog {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .tag {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: block;
+    padding-left: 24%;
+  }
+
+  .tag-img {
+    width: 100%;
+    margin: auto;
+    display: block;
+    padding-right: 25%;
+  }
+
+  .blog2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .blog3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .fone4 {
+    margin: auto;
+    width: 100%;
+    display: flex;
+  }
+
+  .blog4 {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .text1 {
+    margin: auto;
+    padding-right: 5%;
+  }
+
+  .fone5 {
+    margin: auto;
+    width: 100%;
+    display: flex;
+  }
+
+  .blog5 {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    padding-right: 10%;
+    padding-bottom: 5%;
+  }
+
+  .text2 {
+    width: 90%;
+    margin: auto;
+    padding-top: 5%;
+  }
+
+  .img2 {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 5%;
+  }
+
+  .fone6 {
+    margin: auto;
+    width: 100%;
+    display: flex;
+  }
+
+  .blog6 {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    padding-right: 10%;
+    padding-bottom: 5%;
+  }
+
+  .text3 {
+    width: 100%;
+    margin: auto;
+    padding-top: 2%;
+  }
+
+  .blog7 {
+    padding-top: 4%;
+    padding-bottom: 20%;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .blog8 {
+    margin: auto;
+    width: 100%;
+    display: block;
+  }
+
+  .fone8 {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .b8k3::after {
+    padding-right: 40%;
+  }
+
+  .blog9 {
+    padding-top: 4%;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .table {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .form-group3 {
+    display: flex;
+    margin-left: -20%;
+  }
+
+  .btn9 {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 4%;
+  }
+
+  footer {
+    width: 100%;
+    margin-top: 4%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .bf1 {
+    padding-top: 2%;
+  }
+
+  .bf2 {
+    padding-top: 4%;
+    text-align: center;
   }
 }
